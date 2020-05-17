@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\Game.cpp" />
+    <ClCompile Include="Code\GUI.cpp" />
+    <ClCompile Include="Code\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\Game.h" />
+    <ClInclude Include="Code\GUI.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{6331E66E-E923-4B9A-844F-736DFD4C129A}</ProjectGuid>
@@ -142,9 +151,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
