@@ -373,4 +373,4 @@ healthchecksdb
 *.app
 
 # Don't ignore DLL folder
-!/Game\ Thing/DLL/
+!Game\ Thing/DLL/*.dll
